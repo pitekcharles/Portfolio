@@ -2,7 +2,7 @@ import React from "react";
 
 function CardLink() {
     return (
-        <a href="#" class="card-link">Card link</a>
+        <a href="#" className="card-link">Card link</a>
     );
 }
 

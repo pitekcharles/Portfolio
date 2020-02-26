@@ -4,8 +4,8 @@ import JumbotronParagraph from "../JumbotronParagraph";
 
 function JumbotronWrapper() {
     return (
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container">
                 <JumbotronHeadline />
                 <JumbotronParagraph />
             </div>
