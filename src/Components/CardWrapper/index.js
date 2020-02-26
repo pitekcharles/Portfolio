@@ -3,6 +3,7 @@ import CardTitle from "../CardTitle";
 import CardText from "../CardText";
 import CardLink from "../CardLink";
 import Button from "../Button";
+import FormWrapper from "../FormWrapper";
 
 function CardWrapper() {
     return (
@@ -10,8 +11,9 @@ function CardWrapper() {
             <div className="card-body">
                 <CardTitle />
                 <CardText />
+                <FormWrapper />
                 <Button />
-                {/* <CardLink /> */}
+                <CardLink />
             </div>
         </div>
     )

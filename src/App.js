@@ -16,20 +16,6 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className="container">
-                <div className="row justify-content-md-center">
-                    <div className="col-md-10">
-                        <CardWrapper />
-                    </div>
-                </div>
-            </div>
-            <div className="container">
-                <div className="row justify-content-md-center">
-                    <div className="col-md-10">
-                        <CardWrapper />
-                    </div>
-                </div>
-            </div>
             <FooterWrapper />
         </div>
     );
