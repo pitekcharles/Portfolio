@@ -1,6 +1,7 @@
 import React from "react";
 import CardTitle from "../CardTitle";
 import CardText from "../CardText";
+import CardLink from "../CardLink";
 
 function CardWrapper() {
     return (
@@ -8,6 +9,7 @@ function CardWrapper() {
             <div class="card-body">
                 <CardTitle />
                 <CardText />
+                <CardLink />
             </div>
         </div>
     )
