@@ -2,6 +2,7 @@ import React from "react";
 import CardTitle from "../CardTitle";
 import CardText from "../CardText";
 import CardLink from "../CardLink";
+import Button from "../Button";
 
 function CardWrapper() {
     return (
@@ -9,7 +10,8 @@ function CardWrapper() {
             <div class="card-body">
                 <CardTitle />
                 <CardText />
-                <CardLink />
+                <Button />
+                {/* <CardLink /> */}
             </div>
         </div>
     )
