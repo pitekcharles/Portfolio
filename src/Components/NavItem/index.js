@@ -1,9 +1,9 @@
 import React from "react";
 
-function NavItem() {
+function NavItem({ route, name}) {
     return (
         <li className="nav-item active">
-            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href={route}>{name} <span className="sr-only">(current)</span></a>
         </li>
     )
 }

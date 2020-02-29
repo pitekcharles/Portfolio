@@ -1,8 +1,8 @@
 import React from "react";
 
-function CardTitle() {
+function CardTitle({ title }) {
     return (
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">{title}</h5>
     );
 }
 

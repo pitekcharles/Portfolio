@@ -5,15 +5,11 @@ import CardLink from "../CardLink";
 import Button from "../Button";
 import FormWrapper from "../FormWrapper";
 
-function CardWrapper() {
+function CardWrapper({ children }) {
     return (
         <div className="card">
             <div className="card-body">
-                <CardTitle />
-                <CardText />
-                <FormWrapper />
-                <Button />
-                <CardLink />
+                {children}
             </div>
         </div>
     )

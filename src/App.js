@@ -3,21 +3,20 @@ import Nav from "./Components/Nav"
 import JumbotronWrapper from "./Components/JumbotronWrapper";
 import CardWrapper from "./Components/CardWrapper";
 import FooterWrapper from "./Components/FooterWrapper";
+import { BrowserRouter as Router, Route } from "react-router-dom"; 
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 
 function App() {
     return (
-        <div>
-            <Nav />
-            <JumbotronWrapper />
-            <div className="container">
-                <div className="row justify-content-md-center">
-                    <div className="col-md-10">
-                        <CardWrapper />
-                    </div>
-                </div>
+        <Router>
+            <div>
+                <Nav />
+                <Route exact path="/" component={About} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/contact" component={Contact} />
             </div>
-            <FooterWrapper />
-        </div>
+        </Router>
     );
 }
 
