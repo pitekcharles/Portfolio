@@ -7,7 +7,7 @@ import FormWrapper from "../FormWrapper";
 
 function CardWrapper({ children }) {
     return (
-        <div className="card">
+        <div className="card text-center">
             <div className="card-body">
                 {children}
             </div>

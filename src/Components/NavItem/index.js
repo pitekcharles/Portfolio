@@ -1,9 +1,14 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function NavItem({ route, name}) {
+    const location=useLocation();
+
     return (
         <li className="nav-item active">
-            <a className="nav-link" href={route}>{name} <span className="sr-only">(current)</span></a>
+            <Link to={route} className="nav-link">
+                {name}
+            </Link>
         </li>
     )
 }

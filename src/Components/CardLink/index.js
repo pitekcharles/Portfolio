@@ -1,8 +1,11 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
-function CardLink() {
+function CardLink({route, name}) {
     return (
-        <a href="#" className="card-link">Card link</a>
+        <Link to={route} className="card-link">
+            {name}
+        </Link>
     );
 }
 
