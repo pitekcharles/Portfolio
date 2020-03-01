@@ -1,5 +1,6 @@
 import React from "react";
 import NavItem from "../NavItem";
+import NavItemExternal from "../NavItemExternal";
 
 function Nav() {
     return (
@@ -14,6 +15,8 @@ function Nav() {
                     <NavItem route="/about" name="About" />
                     <NavItem route="/contact" name="Contact" />
                     <NavItem route="/projects" name="Projects" />
+                    <NavItemExternal href="https://linkedin.com/in/charles-pitek-8b1bb4198" name="linkedin" />
+                    <NavItemExternal href="https://github.com/pitekcharles" name="Github" />
                 </ul>
             </div>
         </nav>
