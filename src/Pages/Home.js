@@ -8,7 +8,7 @@ import CardLink from "../Components/CardLink";
 function Home() {
     return (
         <>
-            <JumbotronWrapper title="Charles Pitek Portfolio" />
+            <JumbotronWrapper title="Charles Pitek" />
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">

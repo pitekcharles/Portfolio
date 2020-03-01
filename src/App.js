@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
+import Projects from "./Pages/Projects";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                         <Route exact path="/" component={Home} />
                         <Route exact path="/about" component={About} />
                         <Route exact path="/contact" component={Contact} />
+                        <Route exact path="/projects" component={Projects} />
                     </div>
                 </Router>
             </div>
