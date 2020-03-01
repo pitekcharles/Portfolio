@@ -1,5 +1,4 @@
 import React from "react";
-import JumbotronWrapper from "../Components/JumbotronWrapper";
 import CardWrapper from "../Components/CardWrapper";
 import CardTitle from "../Components/CardTitle";
 import CardText from "../Components/CardText";

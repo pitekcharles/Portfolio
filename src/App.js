@@ -1,7 +1,5 @@
 import React from "react";
 import Nav from "./Components/Nav"
-import JumbotronWrapper from "./Components/JumbotronWrapper";
-import CardWrapper from "./Components/CardWrapper";
 import FooterWrapper from "./Components/FooterWrapper";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./Pages/About";
