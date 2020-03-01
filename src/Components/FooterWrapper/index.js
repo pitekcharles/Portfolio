@@ -5,7 +5,7 @@ function FooterWrapper() {
     return (
         <footer className="footer">
             <div className="container">
-                <span className="text-muted">Text goes here!</span>
+                <span className="text-muted">Charles Pitek</span>
             </div>
         </footer>
     );
