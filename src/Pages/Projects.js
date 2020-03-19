@@ -35,7 +35,7 @@ function Projects() {
                             <CardText
                                 text="An app that helps to manage key guild metrics such as attendence, Currently under construction link to be included later."
                             />
-                            <a href="/" className="card-link">Guild Assistant</a>
+                            <a href=" https://fierce-wildwood-24206.herokuapp.com/guildleaderhome" className="card-link">Guild Assistant</a>
                         </CardWrapper>
                     </div>
                 </div>
