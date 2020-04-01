@@ -15,7 +15,6 @@ function Projects() {
                             <CardText
                                 text="A weather app that pulls snowfall data for the past 3 days to help decide to ski or not to ski"
                             />
-                            <br />
                             <a href="https://iampopov.github.io/adventureWeather/" className="card-link">Adventure Weather</a>
                         </CardWrapper>
                     </div>
@@ -25,7 +24,6 @@ function Projects() {
                             <CardText
                                 text="A simple inventory app that can be used to create new items, adjust quantities, with an added customer info page."
                             />
-                            <br />
                             <a href="https://whispering-badlands-47825.herokuapp.com/" className="card-link">IMS</a>
                         </CardWrapper>
                     </div>
@@ -33,8 +31,9 @@ function Projects() {
                         <CardWrapper>
                             <CardTitle title="Guild Assistant" />
                             <CardText
-                                text="An app that helps to manage key guild metrics such as attendence, Currently under construction link to be included later."
+                                text="An app that helps to manage key guild metrics such as attendence."
                             />
+                            <br />
                             <a href=" https://fierce-wildwood-24206.herokuapp.com/guildleaderhome" className="card-link">Guild Assistant</a>
                         </CardWrapper>
                     </div>
